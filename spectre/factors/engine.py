@@ -18,7 +18,7 @@ import torch
 
 
 class OHLCV:
-    open = ColumnDataFactor(inputs=('',), should_delay=False)
+    open = ColumnDataFactor(inputs=('',)) # qtb , should_delay=False
     high = ColumnDataFactor(inputs=('',))
     low = ColumnDataFactor(inputs=('',))
     close = ColumnDataFactor(inputs=('',))
