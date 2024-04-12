@@ -162,4 +162,5 @@ def run_backtest(loader: 'DataLoader', alg_type: 'Type[CustomAlgorithm]', start,
     evt_mgr.subscribe(alg)
     evt_mgr.run(start, end, delay_factor)
 
-    return alg.results
+    # return alg.results
+    return alg
